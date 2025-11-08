@@ -1,0 +1,98 @@
+@use 'variables' as v;
+
+.work {
+    padding: 120px 0 0 0;
+
+    &__up {
+        max-width: 690px;
+    }
+
+    &__up__title {
+        color: v.$color_light-grey;
+        font-size: 30px;
+
+
+    }
+
+    &__up__desk {
+        padding: 8px 0 0 0;
+        color: v.$color_white;
+        font-size: 55px;
+    }
+
+    &__down {
+        display: flex;
+        padding: 40px 0 0 0;
+        gap: 30px;
+
+        .interaction {
+            max-width: 420px;
+            height: 250px;
+
+            &::before {
+                content: "01";
+                font-size: 117px;
+                color: v.$color_light-grey;
+            }
+
+            .interaction__desk {
+                padding: 20px 0 0 0;
+            }
+
+        }
+        .interaction__facebook {
+            max-width: 420px;
+            height: 250px;
+            
+            &::before {
+                content: "02";
+                font-size: 117px;
+                color: v.$color_light-grey;
+            }
+
+            .interaction__desk {
+                padding: 20px 0 0 0;
+            }
+        }
+
+        .interaction__dribbble {
+            max-width: 420px;
+            height: 250px;
+            
+            &::before {
+                content: "03";
+                font-size: 117px;
+                color: v.$color_light-grey;
+            }
+
+            .interaction__desk {
+                padding: 20px 0 0 0;
+            }
+
+        }
+    }
+}
+
+.google {
+    color: v.$color_green;
+}
+
+.facebook {
+    color: v.$color_blue;
+}
+
+.dribbble {
+    color: v.$color_pink;
+}
+
+.interaction__title {
+    color: v.$color_white;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.interaction__desk {
+    color: v.$color_light-grey;
+    font-size: 16px;
+    font-weight: 400;
+}
