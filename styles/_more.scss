@@ -1,0 +1,45 @@
+@use 'variables' as v;
+
+.more {
+    padding: 75px 0 0 0;
+    display: flex;
+
+    &__body {
+        width: 720px;
+        height: 600px;
+        background-color: v.$color_peach;
+        
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        padding: 0 72px;
+    }
+
+    &__img {
+        width: 720px;
+        height: 600px;
+    }
+
+    &__title {
+        max-width: 575px;
+        font-weight: 700;
+        font-size: 55px;
+        color: v.$color_light-black;
+
+    }
+
+    &__desk {
+        max-width: 575px;
+        font-weight: 400;
+        font-size: 18px;
+        color: v.$color_dark-grey;
+        padding: 25px 0 0 0;
+    }
+
+    &__link {
+        border-bottom: 1px solid v.$color_light-grey;
+        padding: 135px 0 0 0;
+    }
+}
