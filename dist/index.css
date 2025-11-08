@@ -89,6 +89,87 @@ a {
   max-width: 750px;
 }
 
+.work {
+  padding: 120px 0 0 0;
+}
+.work__up {
+  max-width: 690px;
+}
+.work__up__title {
+  color: #8491A0;
+  font-size: 30px;
+}
+.work__up__desk {
+  padding: 8px 0 0 0;
+  color: #FFFFFF;
+  font-size: 55px;
+}
+.work__down {
+  display: flex;
+  padding: 40px 0 0 0;
+  gap: 30px;
+}
+.work__down .interaction {
+  max-width: 420px;
+  height: 250px;
+}
+.work__down .interaction::before {
+  content: "01";
+  font-size: 117px;
+  color: #8491A0;
+}
+.work__down .interaction .interaction__desk {
+  padding: 20px 0 0 0;
+}
+.work__down .interaction__facebook {
+  max-width: 420px;
+  height: 250px;
+}
+.work__down .interaction__facebook::before {
+  content: "02";
+  font-size: 117px;
+  color: #8491A0;
+}
+.work__down .interaction__facebook .interaction__desk {
+  padding: 20px 0 0 0;
+}
+.work__down .interaction__dribbble {
+  max-width: 420px;
+  height: 250px;
+}
+.work__down .interaction__dribbble::before {
+  content: "03";
+  font-size: 117px;
+  color: #8491A0;
+}
+.work__down .interaction__dribbble .interaction__desk {
+  padding: 20px 0 0 0;
+}
+
+.google {
+  color: #3CC74E;
+}
+
+.facebook {
+  color: #609BFF;
+}
+
+.dribbble {
+  color: #E95D90;
+}
+
+.interaction__title {
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.interaction__desk {
+  color: #8491A0;
+  font-size: 16px;
+  font-weight: 400;
+}
+
 * {
   box-sizing: border-box;
 }
