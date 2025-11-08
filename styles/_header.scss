@@ -23,4 +23,14 @@
             }
         }
     }
+
+    .square {
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: v.$color_light-black;
+        width: 900px;
+        height: 900px;
+        z-index:-1;
+    }
 }
