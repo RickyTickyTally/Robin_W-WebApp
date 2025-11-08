@@ -1,0 +1,26 @@
+@use 'variables' as v;
+
+.header {
+    padding: 30px 0 0 0;
+
+    .nav {
+        &__item {
+            color: v.$color_white;
+            
+            &_active {
+                background-color: v.$color_active;
+            }
+        }
+
+        &__list {
+            display: flex;
+            gap: 30px;
+
+            .logo {
+                flex-grow: 1;
+                width: 79px;
+                height: 24px;
+            }
+        }
+    }
+}

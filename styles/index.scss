@@ -1,0 +1,16 @@
+@use 'variables' as v;
+@use 'basic';
+@use 'header';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: v.$color_black;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 930px;
+}

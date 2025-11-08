@@ -1,0 +1,23 @@
+{
+  "name": "robin_w",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/RickyTickyTally/Robin_W-WebApp#readme",
+  "bugs": {
+    "url": "https://github.com/RickyTickyTally/Robin_W-WebApp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RickyTickyTally/Robin_W-WebApp.git"
+  },
+  "license": "ISC",
+  "author": "Karen Kanygin",
+  "type": "commonjs",
+  "main": "index.html",
+  "scripts": {
+    "sass:watch": "sass --style=expanded --watch styles:dist"
+  },
+  "dependencies": {
+    "sass": "^1.93.3"
+  }
+}
