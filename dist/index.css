@@ -207,6 +207,55 @@ a {
   padding: 135px 0 0 0;
 }
 
+.skill {
+  display: flex;
+  padding: 120px 0 0 0;
+}
+.skill__info {
+  width: 100%;
+  max-width: 450px;
+  height: 225px;
+  padding-right: 500px;
+}
+.skill__title {
+  color: #FFFFFF;
+  font-size: 55px;
+  font-weight: 700;
+}
+.skill__desk {
+  width: 370px;
+  color: #8491A0;
+  width: 370px;
+  padding: 25px 0 0 0;
+}
+
+.card {
+  width: 420px;
+  height: 180px;
+  position: relative;
+}
+.card__img {
+  width: 32px;
+  height: 32px;
+}
+.card__title {
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 24px 0 0 0;
+}
+.card__desk {
+  color: #8491A0;
+  max-width: 370px;
+  padding: 12px 0 0 0;
+}
+
+.skill__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
 * {
   box-sizing: border-box;
 }

@@ -1,0 +1,31 @@
+@use 'variables' as v;
+
+.card {
+    width: 420px;
+    height: 180px;
+    position: relative;
+
+    &__img {
+        width: 32px;
+        height: 32px;
+    }
+
+    &__title {
+        color: v.$color_white;
+        
+        font-size: 24px;
+        font-weight: 700;
+        padding: 24px 0 0 0;
+    }
+    &__desk {
+        color: v.$color_light-grey;
+        max-width: 370px;
+        padding: 12px 0 0 0;
+    }
+}
+
+.skill__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}

@@ -1,0 +1,26 @@
+@use 'variables' as v;
+
+.skill {
+    display: flex;
+    padding: 120px 0 0 0;
+
+    &__info {
+        width: 100%;
+        max-width: 450px;
+        height: 225px;
+        padding-right: 500px;
+    }
+
+    &__title {
+        color: v.$color_white;
+        font-size: 55px;
+        font-weight: 700;
+    }
+
+    &__desk {
+        width: 370px;
+        color: v.$color_light-grey;
+        width: 370px;
+        padding: 25px 0 0 0;   
+    }
+}
