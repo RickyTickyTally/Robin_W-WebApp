@@ -29,6 +29,11 @@
         justify-self: center;
     }
 
+    &__btn:hover {
+        cursor: pointer;
+        opacity: 0.9;
+    }
+
     &__card-wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;

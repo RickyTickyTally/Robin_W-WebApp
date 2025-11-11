@@ -317,6 +317,10 @@ button {
   display: flex;
   justify-self: center;
 }
+.portfolio__btn:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
 .portfolio__card-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
