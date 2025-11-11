@@ -191,6 +191,9 @@ button {
   flex-direction: column;
   padding: 0 72px;
 }
+.more__body__ig {
+  background-color: #FBE4FF;
+}
 .more__img {
   width: 720px;
   height: 600px;
