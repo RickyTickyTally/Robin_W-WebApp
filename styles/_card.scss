@@ -29,3 +29,30 @@
     grid-template-columns: 1fr 1fr;
     gap: 50px;
 }
+
+.portfolio__card {
+    width: 640px;
+    height: 830px;
+    background-color: v.$color_light-black;
+
+    &__image {
+        width: 640px;
+        height: 620px;
+        object-fit: contain;
+        object-position: center;
+    }
+
+    &__title {
+        padding: 40px 0 0 30px;
+        color: v.$color_white;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    &__desk {
+        color: v.$color_light-grey;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 15px 0 0 30px;
+    }
+}
