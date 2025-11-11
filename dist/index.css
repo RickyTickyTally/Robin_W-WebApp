@@ -26,6 +26,12 @@ a {
   color: inherit;
 }
 
+button {
+  outline: none;
+  background: none;
+  border: none;
+}
+
 .header {
   padding: 30px 0 0 0;
 }
@@ -207,6 +213,57 @@ a {
   padding: 135px 0 0 0;
 }
 
+.card {
+  width: 420px;
+  height: 180px;
+  position: relative;
+}
+.card__img {
+  width: 32px;
+  height: 32px;
+}
+.card__title {
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 24px 0 0 0;
+}
+.card__desk {
+  color: #8491A0;
+  max-width: 370px;
+  padding: 12px 0 0 0;
+}
+
+.skill__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.portfolio__card {
+  width: 640px;
+  height: 830px;
+  background-color: #181823;
+}
+.portfolio__card__image {
+  width: 640px;
+  height: 620px;
+  object-fit: contain;
+  object-position: center;
+}
+.portfolio__card__title {
+  padding: 40px 0 0 30px;
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 700;
+}
+.portfolio__card__desk {
+  color: #8491A0;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 15px 0 0 30px;
+}
+
 .skill {
   display: flex;
   padding: 120px 0 0 0;
@@ -233,31 +290,47 @@ a {
   padding: 50px 0 0 0;
 }
 
-.card {
-  width: 420px;
-  height: 180px;
-  position: relative;
+.portfolio {
+  padding: 120px 0 0 0;
 }
-.card__img {
-  width: 32px;
-  height: 32px;
-}
-.card__title {
-  color: #FFFFFF;
-  font-size: 24px;
-  font-weight: 700;
-  padding: 24px 0 0 0;
-}
-.card__desk {
+.portfolio__title {
   color: #8491A0;
-  max-width: 370px;
-  padding: 12px 0 0 0;
+  font-size: 20px;
+  font-weight: 700;
 }
-
-.skill__cards {
+.portfolio__desk {
+  color: #FFFFFF;
+  font-size: 55px;
+  font-weight: 700;
+  max-width: 550px;
+  padding: 0 0 80px 0;
+}
+.portfolio__btn {
+  width: 250px;
+  height: 75px;
+  margin: 30px 0 0 0;
+  padding: 25px 30px;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 700;
+  border: 1px solid #5221E6;
+  display: flex;
+  justify-self: center;
+}
+.portfolio__card-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 50px;
+  gap: 25px;
+}
+.portfolio__card {
+  scale: 1;
+  opacity: 1;
+  transition: scale 0.5s, opacity 0.5s;
+}
+.portfolio__card:hover {
+  cursor: pointer;
+  scale: 1.05;
+  opacity: 0.8;
 }
 
 * {
