@@ -7,6 +7,7 @@
 @use 'card';
 @use 'skillset';
 @use 'portfolio';
+@use 'dribbble';
 
 * {
     box-sizing: border-box;
@@ -19,4 +20,8 @@ body {
 .container {
     margin: 0 auto;
     max-width: 1200px;
+}
+
+.link {
+    border-bottom: 1px solid v.$color_light-grey;
 }
