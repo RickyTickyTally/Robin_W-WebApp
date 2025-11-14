@@ -160,7 +160,7 @@ button {
   color: #609BFF;
 }
 
-.dribbble {
+.interaction__title-dribbble {
   color: #E95D90;
 }
 
@@ -340,6 +340,35 @@ button {
   opacity: 0.8;
 }
 
+.dribbble {
+  margin: 120px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.dribbble__title {
+  font-weight: 700;
+  font-size: 55px;
+  color: #FFFFFF;
+}
+.dribbble__desk {
+  margin-top: 25px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #8491A0;
+  max-width: 640px;
+}
+.dribbble__link {
+  margin-top: 40px;
+  color: #FFFFFF;
+}
+.dribbble__img {
+  margin: 120px 0 0 0;
+  max-width: 1080px;
+  width: 100%;
+  height: 680px;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -351,6 +380,10 @@ body {
 .container {
   margin: 0 auto;
   max-width: 1200px;
+}
+
+.link {
+  border-bottom: 1px solid #8491A0;
 }
 
 /*# sourceMappingURL=index.css.map */
