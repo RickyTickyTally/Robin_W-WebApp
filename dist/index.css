@@ -364,9 +364,64 @@ button {
 }
 .dribbble__img {
   margin: 120px 0 0 0;
-  max-width: 1080px;
+  max-width: 1076px;
   width: 100%;
-  height: 680px;
+  height: 676px;
+}
+
+.feedback {
+  margin-top: 120px;
+  display: flex;
+}
+.feedback__title {
+  font-size: 55px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.feedback__desk {
+  margin-top: 25px;
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #8491A0;
+}
+.feedback__link {
+  color: #FFFFFF;
+}
+.feedback__text {
+  margin-right: 25px;
+}
+.feedback__card {
+  margin: 0 0 120px 0;
+  border: 1px solid #5B6876;
+  width: 640px;
+  height: 790px;
+}
+.feedback__card__img {
+  max-width: 636px;
+  width: 100%;
+  height: 360px;
+}
+.feedback__card__title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #FFFFFF;
+  max-width: 508px;
+  width: 100%;
+  padding: 64px;
+}
+.feedback__card__owner {
+  font-size: 18px;
+  font-weight: 700;
+  color: #5B6876;
+  padding-left: 64px;
+}
+.feedback__card__position {
+  font-size: 18px;
+  font-weight: 400;
+  color: #5B6876;
+  padding-top: 5px;
+  padding-left: 64px;
 }
 
 * {
